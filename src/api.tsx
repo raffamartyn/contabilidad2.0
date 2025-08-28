@@ -12,7 +12,7 @@ const api = {
             return{
                 id,
                 FECHA,
-                numero: Number(numero),
+                numero: parseInt(numero),
                 descripcion,
 
             }
@@ -20,6 +20,7 @@ const api = {
         })
         }
       },
+
     }
     
   

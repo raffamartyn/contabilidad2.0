@@ -1,6 +1,6 @@
 export interface Data {
     id: string;
-    FECHA: number;
+    FECHA: string;
     numero: number;
     descripcion: string;
 }
